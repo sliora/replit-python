@@ -20,7 +20,7 @@ def isValid(s):
             return False
     return not stack
 
-
+print(isValid("]["))
 print(isValid("{(([]))[]}"))
 
 
